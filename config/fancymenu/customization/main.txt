@@ -1,0 +1,64 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  delayappearanceseconds = 1.0
+  path = resources/overlay.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -148
+  width = 296
+  action = addtexture
+  actionid = 272cbe12-1f9d-4d2c-8b3c-4ff5e1cfb76c1636826333815
+  y = 16
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 49
+}
+
+customization {
+  orientation = top-centered
+  delayappearanceseconds = 1.0
+  path = resources/logo.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -68
+  width = 136
+  action = addtexture
+  actionid = 8d1a8d66-1b7d-452c-98f2-ec3ec6092f7e1636826443135
+  y = 16
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 47
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  delayappearanceseconds = 1.0
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = 49
+  actionid = 670befb6-456f-4e03-9963-06f921b3e1341636826479555
+  action = addtext
+  y = 55
+  delayappearance = true
+  alignment = left
+  value = ALPHA 0.0.1
+  delayappearanceeverytime = false
+}
+

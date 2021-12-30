@@ -1,0 +1,38 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/logo.png
+  orientation = top-centered
+  x = -72
+  width = 146
+  action = addtexture
+  actionid = 90a6af23-e398-4bbd-817d-631b8d01e3d41636826757964
+  y = 15
+  height = 51
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  x = 59
+  actionid = 021d1301-a75a-43f6-b48d-d1bf881eb0cd1636826778552
+  action = addtext
+  y = 58
+  scale = 1.0
+  alignment = left
+  value = 1.17.1
+}
+
