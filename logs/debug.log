@@ -1,0 +1,552 @@
+[19:35:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:35:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:35:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:35:41] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:35:41] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[19:35:41] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Mac OS X:x86_64:10.16, installed at /Users/tristanpoland/Library/Application Support/gdlauncher_next/java/8u242-b08
+[19:35:41] [main/DEBUG] [FML]: Java classpath at launch is:
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/mojang/patchy/1.1/patchy-1.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/google/guava/guava/21.0/guava-21.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries/net/minecraft/1.12.2.jar
+[19:35:41] [main/DEBUG] [FML]: Java library path at launch is:
+[19:35:41] [main/DEBUG] [FML]:     /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/natives
+[19:35:41] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /Users/tristanpoland/Library/Application Support/gdlauncher_next/datastore/libraries
+[19:35:42] [main/DEBUG] [FML]: Cleaning up mods folder: /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods
+[19:35:42] [main/DEBUG] [FML]: Examining file: Wawla-1.12.2-2.6.275.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: simple-rpc-1.12.2-2.5.1.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: torohealth-1.12.2-11.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: xray-1.12.2-1.5.0.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: SoundFilters-0.12.1_for_1.12.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: _MixinBootstrap-1.1.0.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: betterbiomeblend-1.12.2-1.1.6-forge.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: journeymap-1.12.2-5.7.1.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: konkrete_1.3.0_MC_1.12-1.12.2.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: fancymenu_2.3.5_MC_1.12-1.12.2.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: collective-1.12.2-2.65.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: Bookshelf-1.12.2-2.3.590.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.16.1.302.jar
+[19:35:42] [main/DEBUG] [FML]: Examining file: Trajectory Preview-1.12.2-0.3.jar
+[19:35:42] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[19:35:42] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[19:35:42] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[19:35:42] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:35:42] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:35:42] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[19:35:42] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[19:35:42] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[19:35:42] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:35:42] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[19:35:42] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[19:35:42] [main/DEBUG] [FML]: Discovering coremods
+[19:35:42] [main/INFO] [FML]: Searching /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods for mods
+[19:35:42] [main/DEBUG] [FML]:   Adding Wawla-1.12.2-2.6.275.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding simple-rpc-1.12.2-2.5.1.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding torohealth-1.12.2-11.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding xray-1.12.2-1.5.0.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding SoundFilters-0.12.1_for_1.12.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding _MixinBootstrap-1.1.0.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding betterbiomeblend-1.12.2-1.1.6-forge.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding journeymap-1.12.2-5.7.1.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding konkrete_1.3.0_MC_1.12-1.12.2.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding fancymenu_2.3.5_MC_1.12-1.12.2.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding collective-1.12.2-2.65.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding Bookshelf-1.12.2-2.3.590.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding jei_1.12.2-4.16.1.302.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]:   Adding Trajectory Preview-1.12.2-0.3.jar to the mod list
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy _MixinBootstrap-1.1.0.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from _MixinBootstrap-1.1.0.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy betterbiomeblend-1.12.2-1.1.6-forge.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from betterbiomeblend-1.12.2-1.1.6-forge.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy Bookshelf-1.12.2-2.3.590.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in Bookshelf-1.12.2-2.3.590.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy collective-1.12.2-2.65.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in collective-1.12.2-2.65.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy fancymenu_2.3.5_MC_1.12-1.12.2.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from fancymenu_2.3.5_MC_1.12-1.12.2.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy jei_1.12.2-4.16.1.302.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in jei_1.12.2-4.16.1.302.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy journeymap-1.12.2-5.7.1.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in journeymap-1.12.2-5.7.1.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy konkrete_1.3.0_MC_1.12-1.12.2.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from konkrete_1.3.0_MC_1.12-1.12.2.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy simple-rpc-1.12.2-2.5.1.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in simple-rpc-1.12.2-2.5.1.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy SoundFilters-0.12.1_for_1.12.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in SoundFilters-0.12.1_for_1.12.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy torohealth-1.12.2-11.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in torohealth-1.12.2-11.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy Trajectory Preview-1.12.2-0.3.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in Trajectory Preview-1.12.2-0.3.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy Wawla-1.12.2-2.6.275.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in Wawla-1.12.2-2.6.275.jar
+[19:35:42] [main/DEBUG] [FML]: Examining for coremod candidacy xray-1.12.2-1.5.0.jar
+[19:35:42] [main/DEBUG] [FML]: Not found coremod data in xray-1.12.2-1.5.0.jar
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[19:35:42] [main/DEBUG] [mixin]: Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[19:35:42] [main/DEBUG] [mixin]: MixinService [LaunchWrapper] was successfully booted in sun.misc.Launcher$AppClassLoader@3d4eac69
+[19:35:42] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar Service=LaunchWrapper Env=CLIENT
+[19:35:42] [main/DEBUG] [mixin]: Error cleaning class output directory: .mixin.out
+[19:35:42] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #1
+[19:35:42] [main/DEBUG] [mixin]: Initialising Mixin Platform Manager
+[19:35:42] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy rejected container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/patchy/1.1/patchy-1.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/google/guava/guava/21.0/guava-21.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraft/1.12.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar for mixin tweaker
+[19:35:42] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for betterbiomeblend-1.12.2-1.1.6-forge.jar, attempting force-load
+[19:35:42] [main/DEBUG] [mixin]: Adding betterbiomeblend-1.12.2-1.1.6-forge.jar to reparseable coremod collection
+[19:35:42] [main/DEBUG] [mixin]: betterbiomeblend-1.12.2-1.1.6-forge.jar has core plugin fionathemortal.betterbiomeblend.core.CoreMod. Injecting it into FML for co-initialisation:
+[19:35:42] [main/DEBUG] [FML]: Instantiating coremod class CoreMod
+[19:35:42] [main/WARN] [FML]: The coremod fionathemortal.betterbiomeblend.core.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod CoreMod (fionathemortal.betterbiomeblend.core.CoreMod) is not signed!
+[19:35:42] [main/DEBUG] [FML]: Enqueued coremod CoreMod
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for fancymenu_2.3.5_MC_1.12-1.12.2.jar, attempting force-load
+[19:35:42] [main/DEBUG] [mixin]: Adding fancymenu_2.3.5_MC_1.12-1.12.2.jar to reparseable coremod collection
+[19:35:42] [main/DEBUG] [mixin]: fancymenu_2.3.5_MC_1.12-1.12.2.jar has core plugin de.keksuccino.fancymenu.core.FMCore. Injecting it into FML for co-initialisation:
+[19:35:42] [main/DEBUG] [FML]: Instantiating coremod class FMCore
+[19:35:42] [main/WARN] [FML]: The coremod de.keksuccino.fancymenu.core.FMCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod FMCore (de.keksuccino.fancymenu.core.FMCore) is not signed!
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.core.FMCore:<init>:15]: [FANCYMENU] LOADING CORE PLUGIN!
+[19:35:42] [main/DEBUG] [FML]: Enqueued coremod FMCore
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Adding mixin platform agents for container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentFMLLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: ForceLoadAsMod was specified for konkrete_1.3.0_MC_1.12-1.12.2.jar, attempting force-load
+[19:35:42] [main/DEBUG] [mixin]: Adding konkrete_1.3.0_MC_1.12-1.12.2.jar to reparseable coremod collection
+[19:35:42] [main/DEBUG] [mixin]: konkrete_1.3.0_MC_1.12-1.12.2.jar has core plugin de.keksuccino.konkrete.core.KonkreteCore. Injecting it into FML for co-initialisation:
+[19:35:42] [main/DEBUG] [FML]: Instantiating coremod class KonkreteCore
+[19:35:42] [main/WARN] [FML]: The coremod de.keksuccino.konkrete.core.KonkreteCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod KonkreteCore (de.keksuccino.konkrete.core.KonkreteCore) is not signed!
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.KonkreteCore:<init>:14]: [KONKRETE] LOADING CORE PLUGIN!
+[19:35:42] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[PREINIT]
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.MixinConfigLoader:loadConfigs:29]: [KONKRETE] Loading Mixin Config: fancymenu.general.mixin.json
+[19:35:42] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[19:35:42] [main/DEBUG] [FML]: Enqueued coremod KonkreteCore
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentFMLLegacy accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentLiteLoaderLegacy for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentLiteLoaderLegacy rejected container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/DEBUG] [mixin]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:35:42] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[19:35:42] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[19:35:42] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[19:35:42] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:35:42] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[19:35:42] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[19:35:42] [main/DEBUG] [FML]: Injection complete
+[19:35:42] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[19:35:42] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[19:35:44] [main/DEBUG] [FML]: Read 1154 binary patches
+[19:35:44] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[19:35:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:35:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[19:35:45] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:35:45] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[19:35:45] [main/DEBUG] [FML]: Injection complete
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[19:35:45] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Registering mixin config: mixins.betterbiomeblend.json
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[19:35:45] [main/DEBUG] [mixin]: Checking for additional mixins for MixinEnvironment[PREINIT]
+[19:35:45] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@dcc6211
+[19:35:45] [main/DEBUG] [mixin]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)]
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/jline/jline/3.5.1/jline-3.5.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/java3d/vecmath/1.5.2/vecmath-1.5.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/patchy/1.1/patchy-1.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/google/guava/guava/21.0/guava-21.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/realms/1.10.22/realms-1.10.22.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/datastore/libraries/net/minecraft/1.12.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar for mixin tweaker
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Scanning asmgen:/ for mixin tweaker
+[19:35:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)
+[19:35:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:45] [main/DEBUG] [mixin]: Adding agents for Mixin Container ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:45] [main/DEBUG] [mixin]: inject() running with 4 agents
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)]
+[19:35:45] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance CoreMod {[]} for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)
+[19:35:45] [main/DEBUG] [FML]: Injecting coremod CoreMod \{fionathemortal.betterbiomeblend.core.CoreMod\} class transformers
+[19:35:45] [main/DEBUG] [FML]: Injection complete
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin for CoreMod \{fionathemortal.betterbiomeblend.core.CoreMod\}
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin CoreMod
+[19:35:45] [main/DEBUG] [FML]: Coremod plugin class CoreMod run successfully
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance FMCore {[]} for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)
+[19:35:45] [main/DEBUG] [FML]: Injecting coremod FMCore \{de.keksuccino.fancymenu.core.FMCore\} class transformers
+[19:35:45] [main/DEBUG] [FML]: Injection complete
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin for FMCore \{de.keksuccino.fancymenu.core.FMCore\}
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin FMCore
+[19:35:45] [main/DEBUG] [FML]: Coremod plugin class FMCore run successfully
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/fancymenu_2.3.5_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentFMLLegacy:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/DEBUG] [mixin]: FML agent is co-initiralising coremod instance KonkreteCore {[]} for ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)
+[19:35:45] [main/DEBUG] [FML]: Injecting coremod KonkreteCore \{de.keksuccino.konkrete.core.KonkreteCore\} class transformers
+[19:35:45] [main/DEBUG] [FML]: Injection complete
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin for KonkreteCore \{de.keksuccino.konkrete.core.KonkreteCore\}
+[19:35:45] [main/DEBUG] [FML]: Running coremod plugin KonkreteCore
+[19:35:45] [main/DEBUG] [FML]: Coremod plugin class KonkreteCore run successfully
+[19:35:45] [main/DEBUG] [mixin]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/konkrete_1.3.0_MC_1.12-1.12.2.jar)]
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:35:45] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[19:35:45] [main/DEBUG] [FML]: Loaded 4 rules from AccessTransformer mod jar file /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods/betterbiomeblend-1.12.2-1.1.6-forge.jar!META-INF/betterbiomeblend_at.cfg
+
+[19:35:45] [main/DEBUG] [FML]: Loaded 3 rules from AccessTransformer mod jar file /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods/Wawla-1.12.2-2.6.275.jar!META-INF/wawla_at.cfg
+
+[19:35:45] [main/DEBUG] [FML]: Loaded 1 rules from AccessTransformer mod jar file /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods/journeymap-1.12.2-5.7.1.jar!META-INF/journeymap_at.cfg
+
+[19:35:45] [main/DEBUG] [FML]: Loaded 50 rules from AccessTransformer mod jar file /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods/Bookshelf-1.12.2-2.3.590.jar!META-INF/bookshelf_at.cfg
+
+[19:35:45] [main/DEBUG] [FML]: Loaded 13 rules from AccessTransformer mod jar file /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods/jei_1.12.2-4.16.1.302.jar!META-INF/jei_at.cfg
+
+[19:35:45] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #2
+[19:35:45] [main/DEBUG] [FML]: Validating minecraft
+[19:35:45] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[INIT]
+[19:35:45] [main/DEBUG] [FML]: Minecraft validated, launching...
+[19:35:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:35:45] [main/DEBUG] [mixin]: Adding new mixin transformer proxy #3
+[19:35:45] [main/DEBUG] [mixin]: Preparing mixins for MixinEnvironment[DEFAULT]
+[19:35:45] [main/DEBUG] [mixin]: Selecting config fancymenu.general.mixin.json
+[19:35:45] [main/DEBUG] [mixin]: Selecting config mixins.betterbiomeblend.json
+[19:35:45] [main/DEBUG] [mixin]: Preparing fancymenu.general.mixin.json (8)
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Rebuilding transformer delegation list:
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemBlockSpecialTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PotionEffectTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]:   Excluding: org.spongepowered.asm.mixin.transformer.Proxy
+[19:35:45] [main/DEBUG] [org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper]: Transformer delegation list created with 11 entries
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButton | TO TARGET: net.minecraft.client.gui.GuiButton
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButtonImage | TO TARGET: net.minecraft.client.gui.GuiButtonImage
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiSlot | TO TARGET: net.minecraft.client.gui.GuiSlot
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiScreen | TO TARGET: net.minecraft.client.gui.GuiScreen
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButtonLanguage | TO TARGET: net.minecraft.client.gui.GuiButtonLanguage
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinMinecraft | TO TARGET: net.minecraft.client.Minecraft
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinScaledResolution | TO TARGET: net.minecraft.client.gui.ScaledResolution
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiScreenResourcePacks | TO TARGET: net.minecraft.client.gui.GuiScreenResourcePacks
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiButton to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiButtonImage to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiSlot to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiScreen to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiButtonLanguage to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/Minecraft to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/ScaledResolution to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiScreenResourcePacks to metadata cache
+[19:35:46] [main/DEBUG] [mixin]: Preparing mixins.betterbiomeblend.json (4)
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/ChunkCache to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/biome/BiomeColorHelper to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/multiplayer/WorldClient to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Catching
+java.lang.ClassNotFoundException: The specified class 'net.optifine.CustomColors' was not found
+	at org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper.getClassBytes(MixinServiceLaunchWrapper.java:520) ~[_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapper.getClassNode(MixinServiceLaunchWrapper.java:593) ~[_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2005) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1017) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1007) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:895) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:867) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:779) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:539) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [_MixinBootstrap-1.1.0.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) [_MixinBootstrap-1.1.0.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:419) [?:1.8.0_242]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:352) [?:1.8.0_242]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_242]
+	at java.lang.Class.forName(Class.java:348) [?:1.8.0_242]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[19:35:46] [main/WARN] [mixin]: Error loading class: net/optifine/CustomColors (java.lang.ClassNotFoundException: The specified class 'net.optifine.CustomColors' was not found)
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/optifine/CustomColors to metadata cache
+[19:35:46] [main/WARN] [mixin]: @Mixin target net.optifine.CustomColors was not found mixins.betterbiomeblend.json:MixinCustomColors
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[19:35:46] [main/DEBUG] [mixin]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetBackgroundEvent$Pre to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetBackgroundEvent$Post to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetLabelEvent$Pre to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetLabelEvent$Post to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetEvent$Pre to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderWidgetEvent$Post to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/PlayWidgetClickSoundEvent$Pre to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/PlayWidgetClickSoundEvent$Post to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/GlStateManager$SourceFactor to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/renderer/GlStateManager$DestFactor to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/Gui to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderGuiListBackgroundEvent$Pre to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/RenderGuiListBackgroundEvent$Post to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/biome/BiomeColorHelper$ColorResolver to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[19:35:46] [main/DEBUG] [mixin]: Prepared 11 mixins in 0.552 sec (50.2ms avg) (8ms load, 218ms transform, 0ms plugin)
+[19:35:46] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:35:46] [main/DEBUG] [mixin]: Mixing MixinMinecraft from fancymenu.general.mixin.json into net.minecraft.client.Minecraft
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/FancyMenu to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/mainwindow/MainWindowHandler to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for org/lwjgl/opengl/Display to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/Exception to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/Throwable to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/IThreadListener to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/profiler/ISnooperInfo to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/String to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/ReportedException to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/util/MinecraftError to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/RuntimeException to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/Error to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/util/Iterator to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiGameOver to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiMainMenu to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/Integer to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/Number to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/yggdrasil/YggdrasilAuthenticationService to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/HttpAuthenticationService to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/BaseAuthenticationService to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/InterruptedException to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for com/mojang/authlib/minecraft/MinecraftSessionService to metadata cache
+[19:35:46] [main/DEBUG] [mixin]: Mixing MixinWorldClient from mixins.betterbiomeblend.json into net.minecraft.client.multiplayer.WorldClient
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/World to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for fionathemortal/betterbiomeblend/ColorChunkCacheProvider to metadata cache
+[19:35:46] [main/DEBUG] [mixin]: Renaming synthetic method lambda$new$3()Lfionathemortal/betterbiomeblend/ColorChunk; to md7800c5$lambda$new$3$0 in mixins.betterbiomeblend.json:MixinWorldClient
+[19:35:46] [main/DEBUG] [mixin]: Renaming synthetic method lambda$new$2()Lfionathemortal/betterbiomeblend/ColorChunk; to md7800c5$lambda$new$2$1 in mixins.betterbiomeblend.json:MixinWorldClient
+[19:35:46] [main/DEBUG] [mixin]: Renaming synthetic method lambda$new$1()Lfionathemortal/betterbiomeblend/ColorChunk; to md7800c5$lambda$new$1$2 in mixins.betterbiomeblend.json:MixinWorldClient
+[19:35:46] [main/DEBUG] [mixin]: Renaming synthetic method lambda$new$0()Lfionathemortal/betterbiomeblend/ColorChunk; to md7800c5$lambda$new$0$3 in mixins.betterbiomeblend.json:MixinWorldClient
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/lang/ThreadLocal to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for fionathemortal/betterbiomeblend/ColorChunkCache to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for fionathemortal/betterbiomeblend/ColorChunk to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilityProvider to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/world/IBlockAccess to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for java/util/function/Supplier to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/entity/EntityPlayerSP to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[19:35:46] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/entity/AbstractClientPlayer to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[19:35:47] [main/DEBUG] [mixin]: Mixing MixinGuiScreen from fancymenu.general.mixin.json into net.minecraft.client.gui.GuiScreen
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for de/keksuccino/fancymenu/events/GuiInitCompletedEvent to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/common/MinecraftForge to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraftforge/fml/common/eventhandler/EventBus to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/client/gui/GuiYesNoCallback to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for java/awt/datatransfer/Transferable to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTException to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for net/minecraft/nbt/NBTBase to metadata cache
+[19:35:47] [main/TRACE] [mixin]: Added class metadata for java/lang/Class to metadata cache
+[19:35:48] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: TristanPoland

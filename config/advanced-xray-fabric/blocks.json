@@ -1,0 +1,17 @@
+[
+  {
+    "name": "default",
+    "entries": [
+      {
+        "state": "{Name:\"minecraft:chest\",Properties:{facing:\"north\",type:\"single\",waterlogged:\"false\"}}",
+        "name": "Chest",
+        "color": "#ffff00",
+        "order": 1,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "order": 1,
+    "active": true
+  }
+]

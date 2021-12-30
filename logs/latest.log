@@ -1,0 +1,51 @@
+[19:35:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:35:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:35:41] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[19:35:41] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Mac OS X:x86_64:10.16, installed at /Users/tristanpoland/Library/Application Support/gdlauncher_next/java/8u242-b08
+[19:35:42] [main/INFO] [FML]: Searching /Users/tristanpoland/Library/Application Support/gdlauncher_next/instances/Nexus Client 1.12.2/mods for mods
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from _MixinBootstrap-1.1.0.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from betterbiomeblend-1.12.2-1.1.6-forge.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from fancymenu_2.3.5_MC_1.12-1.12.2.jar
+[19:35:42] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from konkrete_1.3.0_MC_1.12-1.12.2.jar
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[19:35:42] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/Users/tristanpoland/Library/Application%20Support/gdlauncher_next/instances/Nexus%20Client%201.12.2/mods/_MixinBootstrap-1.1.0.jar Service=LaunchWrapper Env=CLIENT
+[19:35:42] [main/WARN] [FML]: The coremod fionathemortal.betterbiomeblend.core.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod CoreMod (fionathemortal.betterbiomeblend.core.CoreMod) is not signed!
+[19:35:42] [main/WARN] [FML]: The coremod de.keksuccino.fancymenu.core.FMCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod FMCore (de.keksuccino.fancymenu.core.FMCore) is not signed!
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.core.FMCore:<init>:15]: [FANCYMENU] LOADING CORE PLUGIN!
+[19:35:42] [main/WARN] [FML]: The coremod de.keksuccino.konkrete.core.KonkreteCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:35:42] [main/WARN] [FML]: The coremod KonkreteCore (de.keksuccino.konkrete.core.KonkreteCore) is not signed!
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.KonkreteCore:<init>:14]: [KONKRETE] LOADING CORE PLUGIN!
+[19:35:42] [main/INFO] [STDOUT]: [de.keksuccino.konkrete.core.MixinConfigLoader:loadConfigs:29]: [KONKRETE] Loading Mixin Config: fancymenu.general.mixin.json
+[19:35:42] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[19:35:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:35:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:35:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:35:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[19:35:45] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@dcc6211
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:35:45] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButton | TO TARGET: net.minecraft.client.gui.GuiButton
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButtonImage | TO TARGET: net.minecraft.client.gui.GuiButtonImage
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiSlot | TO TARGET: net.minecraft.client.gui.GuiSlot
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiScreen | TO TARGET: net.minecraft.client.gui.GuiScreen
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiButtonLanguage | TO TARGET: net.minecraft.client.gui.GuiButtonLanguage
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinMinecraft | TO TARGET: net.minecraft.client.Minecraft
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinScaledResolution | TO TARGET: net.minecraft.client.gui.ScaledResolution
+[19:35:46] [main/INFO] [STDOUT]: [de.keksuccino.fancymenu.mixin.FMMixinPlugin:shouldApplyMixin:24]: [FANCYMENU] APPLYING MIXIN: de.keksuccino.fancymenu.mixin.client.MixinGuiScreenResourcePacks | TO TARGET: net.minecraft.client.gui.GuiScreenResourcePacks
+[19:35:46] [main/WARN] [mixin]: Error loading class: net/optifine/CustomColors (java.lang.ClassNotFoundException: The specified class 'net.optifine.CustomColors' was not found)
+[19:35:46] [main/WARN] [mixin]: @Mixin target net.optifine.CustomColors was not found mixins.betterbiomeblend.json:MixinCustomColors
+[19:35:46] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:35:48] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: TristanPoland

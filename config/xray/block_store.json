@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 2,
+    "color": 16776960,
+    "drawing": true
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 4,
+    "color": 16777183,
+    "drawing": true
+  },
+  {
+    "name": "Chest",
+    "blockName": "minecraft:chest",
+    "order": 1,
+    "color": 16737872,
+    "drawing": true
+  },
+  {
+    "name": "End Portal Frame",
+    "blockName": "minecraft:end_portal_frame",
+    "order": 8,
+    "color": 16739071,
+    "drawing": true
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 6,
+    "color": 0,
+    "drawing": true
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 7,
+    "color": 65280,
+    "drawing": true
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 5,
+    "color": 6399,
+    "drawing": true
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 3,
+    "color": 42495,
+    "drawing": true
+  }
+]
