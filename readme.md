@@ -1,1 +1,1 @@
-please select your game version in the "brach" manu
+please select your game version in the "brach" menu
