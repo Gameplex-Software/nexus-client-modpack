@@ -1,0 +1,89 @@
+{
+  "minecraft": {
+    "version": "1.17.1",
+    "modLoaders": [
+      {
+        "id": "fabric-0.11.7",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Nexus Client",
+  "version": "0.0.1",
+  "author": "",
+  "files": [
+    {
+      "projectID": 360438,
+      "fileID": 3516367,
+      "required": true
+    },
+    {
+      "projectID": 416796,
+      "fileID": 3521842,
+      "required": true
+    },
+    {
+      "projectID": 437443,
+      "fileID": 3487563,
+      "required": true
+    },
+    {
+      "projectID": 416797,
+      "fileID": 3467884,
+      "required": true
+    },
+    {
+      "projectID": 459857,
+      "fileID": 3435174,
+      "required": true
+    },
+    {
+      "projectID": 308702,
+      "fileID": 3479750,
+      "required": true
+    },
+    {
+      "projectID": 256717,
+      "fileID": 3491821,
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3515479,
+      "required": true
+    },
+    {
+      "projectID": 521783,
+      "fileID": 3442770,
+      "required": true
+    },
+    {
+      "projectID": 306612,
+      "fileID": 3517689,
+      "required": true
+    },
+    {
+      "projectID": 394468,
+      "fileID": 3488836,
+      "required": true
+    },
+    {
+      "projectID": 361579,
+      "fileID": 3485139,
+      "required": true
+    },
+    {
+      "projectID": 317780,
+      "fileID": 3396263,
+      "required": true
+    },
+    {
+      "projectID": 444663,
+      "fileID": 3349248,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
