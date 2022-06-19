@@ -143,3 +143,1425 @@
 [18:54:36] [Render thread/INFO]: Reloading sounds!
 [18:54:36] [Render thread/INFO]: Running post-reload tasks..
 [18:56:14] [Worker-Bootstrap-6/INFO]: 4256 Datafixer optimizations took 124945 milliseconds
+[19:02:43] [Render thread/INFO]: Connecting to 74.77.82.85, 25565
+[19:02:44] [Render thread/INFO]: Started 2 worker threads
+[19:02:45] [Render thread/INFO]: [CHAT] 
+[19:02:45] [Render thread/INFO]: [CHAT] A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[19:02:45] [Render thread/INFO]: [CHAT] Trident_For_U joined the game
+[19:02:45] [Render thread/INFO]: [CHAT] Welcome, Trident_For_U!
+[19:02:45] [Render thread/INFO]: [CHAT] Type /help for a list of commands.
+[19:02:45] [Render thread/INFO]: [CHAT] Type /list to see who else is online.
+[19:02:45] [Render thread/INFO]: [CHAT] Players online: 1 - World time: 7:29 PM
+[19:02:45] [Render thread/INFO]: [CHAT] You have no new mail.
+[19:02:45] [Render thread/INFO]: Loaded 596 advancements
+[19:02:45] [Render thread/INFO]: Stopping worker threads
+[19:02:45] [Render thread/INFO]: Started 2 worker threads
+[19:03:09] [Render thread/INFO]: Stopping worker threads
+[19:03:14] [Render thread/INFO]: Connecting to 74.77.82.85, 25565
+[19:03:15] [Render thread/INFO]: Started 2 worker threads
+[19:03:15] [Render thread/INFO]: [CHAT] 
+[19:03:15] [Render thread/INFO]: [CHAT] A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[19:03:15] [Render thread/INFO]: [CHAT] Trident_For_U joined the game
+[19:03:15] [Render thread/INFO]: Loaded 596 advancements
+[19:03:15] [Render thread/INFO]: [CHAT] Welcome, Trident_For_U!
+[19:03:15] [Render thread/INFO]: [CHAT] Type /help for a list of commands.
+[19:03:15] [Render thread/INFO]: [CHAT] Type /list to see who else is online.
+[19:03:15] [Render thread/INFO]: [CHAT] Players online: 1 - World time: 8:06 PM
+[19:03:15] [Render thread/INFO]: [CHAT] You have no new mail.
+[19:03:19] [Render thread/INFO]: [STDOUT]: ################# ERROR [KONKRETE] #################
+[19:03:19] [Render thread/INFO]: [STDOUT]: Failed to invoke event!
+[19:03:19] [Render thread/INFO]: [STDOUT]: Event Subscription Class: class de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper
+[19:03:19] [Render thread/INFO]: [STDOUT]: Event Subscription Method Name: onRenderPost
+[19:03:19] [Render thread/INFO]: [STDOUT]: Event Name: de.keksuccino.konkrete.events.client.GuiScreenEvent$DrawScreenEvent$Post
+[19:03:19] [Render thread/INFO]: [STDOUT]: ####################################################
+[19:03:19] [Render thread/INFO]: [STDOUT]: 
+[19:03:19] [Render thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at jdk.internal.reflect.GeneratedMethodAccessor26.invoke(Unknown Source)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.konkrete.events.EventHandler.invokeEvent(EventHandler.java:115)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.konkrete.events.EventHandler.callEventsFor(EventHandler.java:105)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_757.handler$zph000$afterRenderScreen(class_757.java:3066)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_757.method_3192(class_757.java:881)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1523(class_310.java:1143)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1514(class_310.java:734)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:237)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[19:03:19] [Render thread/INFO]: [STDERR]: Caused by: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because the return value of "de.keksuccino.konkrete.events.client.GuiScreenEvent$DrawScreenEvent$Post.getGui()" is null
+[19:03:19] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.onRenderPost(CustomizationHelper.java:56)
+[19:03:19] [Render thread/INFO]: [STDERR]: 	... 13 more
+[19:03:20] [Downloader 0/INFO]: Found file /Users/tristanpoland/Documents/curseforge/minecraft/Instances/nexus-client-modpack/server-resource-packs/5fa235d21409c9e47ee622675b32b4fa40db6a10 without verification hash
+[19:03:20] [Downloader 0/INFO]: Applying server pack /Users/tristanpoland/Documents/curseforge/minecraft/Instances/nexus-client-modpack/server-resource-packs/5fa235d21409c9e47ee622675b32b4fa40db6a10
+[19:03:20] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Better Beds, IDE Better Command Block, BetterF3, Better Ping Display, Better Taskbar, Better Recipe Book, Cloth Config v6, Cull Less Leaves, EntityCulling-Fabric, essential-container, essential-loader, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, FancyMenu, FancyMenu Audio Extension, Konkrete, Lithium, Phosphor, Reese's Sodium Options, Simple RPC, Sodium, Essential), 5fa235d21409c9e47ee622675b32b4fa40db6a10, Essential (fabric_1.19).jar
+[19:03:20] [Worker-Main-20/WARN]: Unable to load model: 'minecraft:item/raulh22/slimefun/slimefun/gui/wiki' referenced from: minecraft:gold_ingot#inventory: java.io.FileNotFoundException: minecraft:models/item/raulh22/slimefun/slimefun/gui/wiki.json
+[19:03:20] [Worker-Main-20/WARN]: Unable to load model: 'minecraft:item/raulh22/slimefun/slimefun/gui/kelp_cookie' referenced from: minecraft:gold_ingot#inventory: java.io.FileNotFoundException: minecraft:models/item/raulh22/slimefun/slimefun/gui/kelp_cookie.json
+[19:03:21] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:03:21] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:03:21] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
+[19:03:21] [Render thread/INFO]: Sound engine started
+[19:03:21] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:03:22] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:03:23] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:03:23] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:03:23] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:03:23] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:03:23] [Render thread/INFO]: Stopping worker threads
+[19:03:23] [Render thread/INFO]: Started 2 worker threads
+[19:03:25] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[19:03:25] [Render thread/INFO]: Reloading sounds!
+[19:03:25] [Render thread/INFO]: Running post-reload tasks..
+[19:04:44] [Render thread/INFO]: [CHAT] Home set to current location.
+[19:05:25] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Better Beds, IDE Better Command Block, BetterF3, Better Ping Display, Better Taskbar, Better Recipe Book, Cloth Config v6, Cull Less Leaves, EntityCulling-Fabric, essential-container, essential-loader, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, FancyMenu, FancyMenu Audio Extension, Konkrete, Lithium, Phosphor, Reese's Sodium Options, Simple RPC, Sodium, Essential), Essential (fabric_1.19).jar
+[19:05:25] [Render thread/INFO]: Stopping worker threads
+[19:05:26] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:05:26] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:05:26] [Render thread/INFO]: OpenAL initialized on device CoreAudio Default
+[19:05:26] [Render thread/INFO]: Sound engine started
+[19:05:26] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:05:26] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:05:26] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:05:26] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:05:29] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[19:05:29] [Render thread/INFO]: Reloading sounds!
+[19:05:29] [Render thread/INFO]: Running post-reload tasks..
+[19:05:34] [Render thread/INFO]: Connecting to hypixel.net, 25565
+[19:05:35] [Netty Client IO #5/WARN]: Received invalid channel identifier "BungeeCord" from connection net.minecraft.class_2535@4ceed45a
+[19:05:35] [Render thread/INFO]: Started 2 worker threads
+[19:05:35] [Render thread/INFO]: [CHAT]                                      
+[19:05:35] [Render thread/INFO]: [CHAT]                          
+[19:05:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:mods
+[19:05:35] [Render thread/INFO]: Stopping worker threads
+[19:05:35] [Render thread/INFO]: Started 2 worker threads
+[19:05:36] [Render thread/INFO]: [CHAT] §aYou have §b2 §aunclaimed leveling rewards!
+[19:05:36] [Render thread/INFO]: [CHAT] §eClick here to view them!
+[19:05:36] [Render thread/INFO]: [CHAT] \n§e§lWARNING: §eMandatory account migration to a Microsoft account starts on March 10th.\n§eIf you haven't migrated yet, we highly recommend doing so before then. §bClick here to find out more!
+[19:05:36] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] JayWonIsFree§f §6joined the lobby!
+[19:05:37] [Render thread/WARN]: Duplicate entity UUID 44827f5b-995b-2af6-a77d-9d200c052c47: class_745['61n7qu20n5'/7, l='ClientLevel', x=-17.50, y=70.00, z=7.50]
+[19:05:41] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] RedPqndx§f §6joined the lobby!
+[19:05:42] [Render thread/ERROR]: Signature is missing from textures payload
+[19:05:43] [Render thread/INFO]: [CHAT] ✦ [VIP] pinguinoslc found an Epic Mooshroom Pet in a Mystery Box!
+[19:05:43] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] eAFK§f §6joined the lobby!
+[19:05:44] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] Fritiz§f §6joined the lobby! §a<§c<§b<
+[19:05:46] [Render thread/INFO]: [CHAT] §b[MVP§4+§b] ohBash§f §6joined the lobby!
+[19:05:47] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] Aukto§f §6joined the lobby!
+[19:05:47] [Render thread/WARN]: Unable to play unknown soundEvent: minecraft:
+[19:05:51] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] waterboiiiiiiii§f §6joined the lobby!
+[19:05:55] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] Dragonking495§f §6joined the lobby!
+[19:05:56] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] regence§f §6joined the lobby!
+[19:05:56] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] Voiddel§f §6joined the lobby!
+[19:05:59] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] BallonBoy15§f §6joined the lobby!
+[19:06:01] [Render thread/INFO]: [CHAT] §b[MVP§8+§b] Furious0§f §6joined the lobby!
+[19:06:04] [Render thread/ERROR]: Failed to recreate fishing hook on client. null (id: 28790392) is not a valid owner.
+[19:06:04] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] SixHalo74352093§f §6joined the lobby! §a<§c<§b<
+[19:06:05] [Render thread/ERROR]: Signature is missing from textures payload
+[19:06:05] [Render thread/ERROR]: Failed to recreate fishing hook on client. null (id: 28790392) is not a valid owner.
+[19:06:05] [Render thread/INFO]: [CHAT] §7[49✫] §6[MVP§1++§6] Saphelia§f: LMAOO
+[19:06:06] [Render thread/ERROR]: Failed to recreate fishing hook on client. null (id: 28790392) is not a valid owner.
+[19:06:07] [Render thread/INFO]: [CHAT] §7[49✫] §6[MVP§1++§6] Saphelia§f: aiukwjl;'
+[19:06:11] [Render thread/ERROR]: Failed to recreate fishing hook on client. null (id: 28790392) is not a valid owner.
+[19:06:11] [Render thread/INFO]: [CHAT] §b[MVP§e+§b] KobraPlayzMC§f §6joined the lobby!
+[19:06:11] [Render thread/INFO]: [CHAT] §b[323✫] §b[MVP§2+§b] Aukto§f: ?
+[19:06:13] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] AtomicPressure§f §6joined the lobby! §a<§c<§b<
+[19:06:15] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] GlowCourse§f §6joined the lobby! §a<§c<§b<
+[19:06:15] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] oL4YLA§f §6joined the lobby!
+[19:06:17] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] Buddykid1§f §6joined the lobby!
+[19:06:17] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] LenLep§f §6joined the lobby! §a<§c<§b<
+[19:06:19] [Render thread/INFO]: [CHAT] §b[MVP§9+§b] Bluedurp§f §6joined the lobby!
+[19:06:19] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] ohNightwarrior§f §6joined the lobby!
+[19:06:20] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] ClearableClub2§f §6joined the lobby!
+[19:06:21] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] ImVeryHott§f §6joined the lobby! §a<§c<§b<
+[19:06:23] [Render thread/ERROR]: Signature is missing from textures payload
+[19:06:24] [Render thread/INFO]: [CHAT] §b[MVP§d+§b] mommyukiio§f §6joined the lobby!
+[19:06:24] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] Juicy_G§f §6joined the lobby! §a<§c<§b<
+[19:06:26] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§1++§6] Zuhiy§f §6joined the lobby! §a<§c<§b<
+[19:06:26] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] ohSayuri§f §6joined the lobby! §a<§c<§b<
+[19:06:28] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] NotSweatyUrGood§f §6joined the lobby! §a<§c<§b<
+[19:06:32] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] JohNathan041211§f §6joined the lobby!
+[19:06:34] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§2++§b] _Incompetence§f §6joined the lobby! §a<§c<§b<
+[19:06:35] [Render thread/INFO]: [CHAT] §b[MVP§8+§b] ripcontact§f §6joined the lobby!
+[19:06:37] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§3++§6] Mozartminecraft§f §6joined the lobby! §a<§c<§b<
+[19:06:37] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] HellGrown§f §6joined the lobby! §a<§c<§b<
+[19:06:45] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] Zfishynipee3§f §6joined the lobby!
+[19:06:46] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] pinksuitboo§f §6joined the lobby! §a<§c<§b<
+[19:06:47] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] flowerboynico§f §6joined the lobby! §a<§c<§b<
+[19:06:53] [Render thread/INFO]: [CHAT] §b[MVP§f+§b] oPoyo§f §6joined the lobby!
+[19:06:57] [Render thread/INFO]: [CHAT] §b[MVP§3+§b] Kwohz§f §6joined the lobby!
+[19:06:58] [Render thread/INFO]: [CHAT] §b[MVP§c+§b] Cr3_4tiei_v3_A1M§f §6joined the lobby!
+[19:06:59] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] MINIONLUVERMO§f §6joined the lobby!
+[19:06:59] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] pixcc§f §6joined the lobby! §a<§c<§b<
+[19:06:59] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] Snowyaim§f §6joined the lobby!
+[19:07:02] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§d++§b] SP3O§f §6joined the lobby! §a<§c<§b<
+[19:07:03] [Render thread/INFO]: [CHAT] §b[MVP§9+§b] proutito§f §6joined the lobby!
+[19:07:05] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] My_1IQ§f §6joined the lobby!
+[19:07:05] [Render thread/INFO]: [CHAT] §b[MVP§9+§b] skelli902§f §6joined the lobby!
+[19:07:06] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] haywiregaming§f §6joined the lobby! §a<§c<§b<
+[19:07:11] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] Antrob§f §6joined the lobby! §a<§c<§b<
+[19:07:12] [Render thread/INFO]: [CHAT] §b[MVP§6+§b] Tuxocube§f §6joined the lobby!
+[19:07:13] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Rotin§f §6joined the lobby! §a<§c<§b<
+[19:07:13] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] squidpuppet§f §6joined the lobby! §a<§c<§b<
+[19:07:14] [Render thread/INFO]: [CHAT] §b[MVP§f+§b] PiaZma§f §6joined the lobby!
+[19:07:14] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] d8ny§f §6joined the lobby!
+[19:07:14] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§e++§6] Salse§f §6joined the lobby! §a<§c<§b<
+[19:07:14] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] ilyval§f §6joined the lobby! §a<§c<§b<
+[19:07:20] [Render thread/INFO]: [CHAT] §b[MVP§e+§b] EATMORCHICKEN09§f §6joined the lobby!
+[19:07:24] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Not_linear§f §6joined the lobby! §a<§c<§b<
+[19:07:26] [Render thread/INFO]: [CHAT] §b[MVP§f+§b] Drtio§f §6joined the lobby!
+[19:07:29] [Render thread/INFO]: [CHAT] §7[5✫] §a[VIP] SparkShott§f: lmaooo
+[19:07:33] [Render thread/INFO]: [CHAT] §7[5✫] §a[VIP] SparkShott§f: i won hehe
+[19:07:36] [Render thread/INFO]: [CHAT] §b[MVP§2+§b] Louellaa§f §6joined the lobby!
+[19:07:37] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] pixcc§f §6joined the lobby! §a<§c<§b<
+[19:07:38] [Render thread/INFO]: [CHAT] §7[5✫] §7shknz3r0§7: pls give me vip pls pls give me vip pls pls give me vip pls pls give me vip pls pls give me vip pls
+[19:07:41] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] geklow§f §6joined the lobby! §a<§c<§b<
+[19:07:48] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] SuperShadow0920§f §6joined the lobby! §a<§c<§b<
+[19:07:50] [Render thread/INFO]: [CHAT] §b[MVP§f+§b] DragonCatcher99§f §6joined the lobby!
+[19:07:56] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] Chuza§f §6joined the lobby! §a<§c<§b<
+[19:07:56] [Render thread/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§d++§6] RoyalCalamity§f §6joined the lobby! §a<§c<§b<
+[19:08:00] [Render thread/INFO]: [CHAT] §b[MVP§4+§b] Jcactus450§f §6joined the lobby!
+[19:08:02] [Render thread/INFO]: [CHAT] §b[MVP§a+§b] BlueBros§f §6joined the lobby!
+[19:08:03] [Render thread/INFO]: [CHAT] Found an in-progress Bed Wars game! Teleporting you to mega22C...
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/WARN]: Received packet for unknown team NPCListShow: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team |||||||||||||||: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a669-6a3f7da6: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a828-c836530: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a62948c5174e: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team dy2v1e8rip: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a269-2e18901c: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a60972248566: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a908-1a1e7e8c: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a8285412cbf: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a60947f7dfc3: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a609-536c32e7: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a3093b06b9f: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a319-fbc100f: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a999-76d80d5f: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a818-27c14126: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a609101f0e7f: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a2797369063c: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a6296385b82a: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_1: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_15: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_13: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_14: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_11: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_12: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team NPCListHide: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_10: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_9: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_8: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_7: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_6: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a8284dc97a7e: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_5: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_4: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_3: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team team_2: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a3296c7df604: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a5993de26459: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a659-61e97d71: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a828f1ccc34: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a828-238b2c3a: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a349-b6d3e70: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a559771028b3: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a279-6d36f966: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a679-79569b33: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a908203421f7: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a609-47eb0543: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a818536d2b44: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a2896d691a13: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a828-c82c821: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a828101cd06e: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team ku0b5567fw: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a8287c281b35: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a659-395f7e0e: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a259-764aa098: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a3191e5c2712: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a309-4fca2af1: team action: REMOVE, player action: null
+[19:08:04] [Render thread/WARN]: Received packet for unknown team a619729cd5b7: team action: REMOVE, player action: null
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/INFO]: Stopping worker threads
+[19:08:04] [Render thread/INFO]: Started 2 worker threads
+[19:08:04] [Render thread/INFO]: [CHAT]        
+[19:08:04] [Render thread/INFO]: [CHAT] To leave Bed Wars, type /lobby
+[19:08:04] [Render thread/INFO]: [CHAT] Trident_For_U died.
+[19:08:04] [Render thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[19:08:05] [Render thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:06] [Render thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[19:08:07] [Render thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[19:08:08] [Render thread/INFO]: [CHAT] You will respawn in 1 second!
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:09] [Render thread/INFO]: [CHAT] You have respawned!
+[19:08:09] [Render thread/INFO]: [CHAT] §c§7[4✫] §c[RED] §7Steelmyth§7: exactly
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:11] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:12] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: ITS CASTLE
+[19:08:13] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: HUH'
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:14] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: my brain
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:20] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:22] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: time to travel to other castle
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:23] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: my brain has just got gotten
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:26] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 9 more!
+[19:08:29] [Render thread/INFO]: [CHAT] §c§f[152✫] §c[RED] §a[VIP] Woefulness_§f: gen is slow when no people
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:29] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:30] [Render thread/INFO]: [CHAT] §c§f[128✫] §c[RED] §7Y0ma4ma§7: put water on the gen, helps
+[19:08:31] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 9 more!
+[19:08:31] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 9 more!
+[19:08:31] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 9 more!
+[19:08:32] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 9 more!
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:32] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:37] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: ,,,
+[19:08:38] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: um hmm
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:38] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:41] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: dont
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:44] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:45] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: pls
+[19:08:46] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: i beg
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:47] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:48] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:08:48] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:08:49] [Render thread/INFO]: [CHAT] §c§7[71✫] §c[RED] §a[VIP] kevenandsoki§f: dont
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:50] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:53] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:08:59] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:00] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: a simple vip cant stop me putting water on the gens
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:02] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:05] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:08] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:10] [Render thread/INFO]: [CHAT] §c§7[3✫] §c[RED] §7bloodylip§7: we need iron armor! get it quick!
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:13] [Render thread/INFO]: [CHAT] §c§7[91✫] §c[RED] §7mitmots§7: shush
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: you can get banned for team griefing tho
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:17] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:21] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 1 more!
+[19:09:21] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 1 more!
+[19:09:21] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 1 more!
+[19:09:22] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 1 more!
+[19:09:23] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: ye'
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:26] [Render thread/INFO]: [CHAT] §c§7[39✫] §c[RED] §b[MVP§c+§b] Lil_superAkaSupr§f: na
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:28] [Render thread/INFO]: [CHAT] You purchased Permanent Iron Armor
+[19:09:29] [Render thread/INFO]: [CHAT] TMaska0303 purchased Sharpened Swords
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:30] [Render thread/INFO]: [CHAT] §c§7[39✫] §c[RED] §b[MVP§c+§b] Lil_superAkaSupr§f: or ye
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:35] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:42] [Render thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:45] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: pro games dont need sharpned sword or prot armor they only need dragon bugg
+[19:09:47] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: buff
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:48] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:09:49] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:53] [Render thread/INFO]: [CHAT] mitmots purchased Reinforced Armor I
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:56] [Render thread/INFO]: [CHAT] §c§7[30✫] §c[RED] §b[MVP§6+§b] Daniel1019_Power§f: heal pool?
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:09:59] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: no
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:04] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: what the ****
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:10] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: this is why your computer is set up in an orphanage
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:13] [Render thread/INFO]: [CHAT] 
+[19:10:13] [Render thread/INFO]: [CHAT]                                                                               
+[19:10:13] [Render thread/INFO]: [CHAT] 
+[19:10:13] [Render thread/INFO]: [CHAT]                   OGJoeman7 unleashed the WITHER!
+[19:10:13] [Render thread/INFO]: [CHAT] 
+[19:10:13] [Render thread/INFO]: [CHAT]                                                                               
+[19:10:13] [Render thread/INFO]: [CHAT] 
+[19:10:14] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: yes
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:15] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: lol
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:28] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: my parents abadoned me since i was like 5
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:34] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: deserved
+[19:10:34] [Render thread/INFO]: [CHAT] §c§f[110✫] §c[RED] §a[VIP§6+§a] BlazingDragon200§f: rly
+[19:10:35] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: LOL
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:38] [Render thread/WARN]: Received passengers for unknown entity
+[19:10:38] [Render thread/WARN]: Received passengers for unknown entity
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:42] [Render thread/INFO]: [CHAT] Trident_For_U was knocked into the void by captalm.
+[19:10:42] [Render thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[19:10:43] [Render thread/INFO]: [CHAT] §c§7[30✫] §c[RED] §b[MVP§6+§b] Daniel1019_Power§f: toxic
+[19:10:43] [Render thread/INFO]: [CHAT] MmmVrispy purchased Heal Pool
+[19:10:43] [Render thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[19:10:44] [Render thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[19:10:44] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: deserved? yes
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:45] [Render thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[19:10:46] [Render thread/INFO]: [CHAT] You will respawn in 1 second!
+[19:10:47] [Render thread/INFO]: [CHAT] You have respawned!
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:49] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:10:49] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:53] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: cuz they think i am ugly
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:55] [Render thread/INFO]: [CHAT] Star Bed: Alarm trap set off by vctrjhn from Blue team!
+[19:10:55] [Render thread/INFO]: [CHAT] There are 5 team members nearby.
+[19:10:56] [Render thread/INFO]: [CHAT] TMaska0303 purchased Iron Forge
+[19:10:57] [Render thread/INFO]: [CHAT] §c§6[257✫] §c[RED] §b[MVP§5+§b] Purpanated§f: me too
+[19:10:57] [Render thread/INFO]: [CHAT] Diamond Generators have been upgraded to Tier II
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:10:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:00] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 4 more!
+[19:11:00] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 4 more!
+[19:11:00] [Render thread/INFO]: [CHAT] You don't have enough Gold! Need 4 more!
+[19:11:01] [Render thread/INFO]: [CHAT] §c§b[364✫] §c[RED] §a[VIP] 8_Mati_8§f: leave the diamonds
+[19:11:01] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:11:01] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:11:01] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:11:01] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:06] [Render thread/INFO]: [CHAT] OGJoeman7's streak power has worn off.
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:13] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:11:13] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:11:13] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:11:13] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:11:13] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:34] [Render thread/INFO]: [CHAT] Star Bed: Alarm trap set off by Flovnder from Blue team!
+[19:11:34] [Render thread/INFO]: [CHAT] There are 5 team members nearby.
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:49] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:11:49] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:11:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:16] [Render thread/INFO]: [CHAT] Trident_For_U met their end by Mysticbluex2.
+[19:12:16] [Render thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[19:12:17] [Render thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:18] [Render thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[19:12:19] [Render thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[19:12:20] [Render thread/INFO]: [CHAT] §7[SPECTATOR] §a[VIP] Mysticbluex2§f: lets gooo
+[19:12:20] [Render thread/INFO]: [CHAT] You will respawn in 1 second!
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:21] [Render thread/INFO]: [CHAT] You have respawned!
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:37] [Render thread/INFO]: [CHAT] Approvingly purchased Golden Forge
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:46] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: lmao
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:48] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:12:49] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:49] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:50] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:50] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:50] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:12:50] [Render thread/INFO]: [CHAT] You don't have enough Iron! Need 4 more!
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:12:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:02] [Render thread/INFO]: [CHAT] 
+[19:13:02] [Render thread/INFO]: [CHAT]                                                                               
+[19:13:02] [Render thread/INFO]: [CHAT] 
+[19:13:02] [Render thread/INFO]: [CHAT]                        ltdr unleashed the WITHER!
+[19:13:02] [Render thread/INFO]: [CHAT] 
+[19:13:02] [Render thread/INFO]: [CHAT]                                                                               
+[19:13:02] [Render thread/INFO]: [CHAT] 
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:05] [Render thread/INFO]: [CHAT] §c§7[21✫] §c[RED] §a[VIP§6+§a] ZzAnG_BiT§f: diamond
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/INFO]: [CHAT] 
+[19:13:15] [Render thread/INFO]: [CHAT]                                                                               
+[19:13:15] [Render thread/INFO]: [CHAT] 
+[19:13:15] [Render thread/INFO]: [CHAT]                    De4th312 unleashed the WITHER!
+[19:13:15] [Render thread/INFO]: [CHAT] 
+[19:13:15] [Render thread/INFO]: [CHAT]                                                                               
+[19:13:15] [Render thread/INFO]: [CHAT] 
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:16] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: where is that blue guy just invaded our castle
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:21] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:24] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:26] [Render thread/INFO]: [CHAT] §c§7[8✫] §c[RED] §7superonion02§7: bow
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:27] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:29] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: yes
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:30] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:32] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: i have one
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:33] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:34] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:34] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:34] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:35] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:35] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:35] [Render thread/INFO]: [CHAT] §c§f[112✫] §c[RED] §a[VIP§6+§a] Mie_san§f: deez
+[19:13:36] [Render thread/WARN]: Received passengers for unknown entity
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:36] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:37] [Render thread/INFO]: [CHAT] §c§7[8✫] §c[RED] §7superonion02§7: gogogo
+[19:13:38] [Render thread/INFO]: [CHAT] ltdr's streak power has worn off.
+[19:13:38] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: nuts
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:39] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: OUT
+[19:13:42] [Render thread/INFO]: [CHAT] Cross-teaming is not allowed! Report cross-teamers using /report.
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:42] [Render thread/INFO]: [CHAT] §c§7[99✫] §c[RED] §7MINI_LAMMA§7: gottem
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:45] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:46] [Render thread/INFO]: [CHAT] Trident_For_U be cannonballed to death by y_po.
+[19:13:46] [Render thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[19:13:47] [Render thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[19:13:48] [Render thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:48] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:49] [Render thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[19:13:50] [Render thread/INFO]: [CHAT] You will respawn in 1 second!
+[19:13:51] [Render thread/INFO]: [CHAT] You have respawned!
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:51] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:54] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:55] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: BEUHHH
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:13:57] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:00] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:03] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:06] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:09] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:11] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: fire at will
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:12] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:15] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:18] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:21] [Render thread/INFO]: [CHAT] §c§7[6✫] §c[RED] §7BiggishKarma119§7: tekno move
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:28] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:31] [Render thread/INFO]: [CHAT] 
+[19:14:31] [Render thread/INFO]: [CHAT] BED DESTRUCTION > Blue Heart was gulped by Woefulness_!
+[19:14:31] [Render thread/INFO]: [CHAT] 
+[19:14:33] [Render thread/INFO]: [CHAT] §c§7[42✫] §c[RED] §b[MVP] Ender1234§f: nice
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:34] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:14:34] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: imagine being a 6 star
+[19:14:34] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:14:34] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:14:34] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:14:35] [Render thread/INFO]: [CHAT] You purchased Wool
+[19:14:35] [Render thread/INFO]: [CHAT] You've already purchased this item!
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:37] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: imagine being a 54 star
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:40] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:41] [Render thread/INFO]: [CHAT] You don't have enough Emeralds! Need 2 more!
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:43] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:45] [Render thread/INFO]: [CHAT] You purchased Iron Sword
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:46] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:47] [Render thread/INFO]: [CHAT] Star Bed: Alarm trap set off by rcmp26 from Blue team!
+[19:14:47] [Render thread/INFO]: [CHAT] There are 4 team members nearby.
+[19:14:48] [Render thread/INFO]: [CHAT] §c§7[91✫] §c[RED] §7mitmots§7: imagine being a 229 star
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:49] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:50] [Render thread/INFO]: [CHAT] +25 Bed Wars Experience (Time Played)
+[19:14:50] [Render thread/INFO]: [CHAT] +4 coins! (Time Played)
+[19:14:51] [Render thread/INFO]: [CHAT] §c§7[79✫] §c[RED] §b[MVP§f+§b] Tashia§f: not all of us are no lives
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:52] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:53] [Render thread/INFO]: [CHAT] 
+[19:14:53] [Render thread/INFO]: [CHAT] BED DESTRUCTION > Your Star was bed #1,351 destroyed by rcmp26!
+[19:14:53] [Render thread/INFO]: [CHAT] 
+[19:14:55] [Render thread/INFO]: [CHAT] §c§7[6✫] §c[RED] §7BiggishKarma119§7: optifine did you see that cape
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:55] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:14:58] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: imaginge BEIIIN a 229 star
+[19:14:58] [Render thread/INFO]: [CHAT] §c§7[8✫] §c[RED] §7superonion02§7: nonono
+[19:15:00] [Render thread/INFO]: [CHAT] §c§7[30✫] §c[RED] §b[MVP§6+§b] Daniel1019_Power§f: hub
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:01] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/INFO]: [CHAT] §c§f[152✫] §c[RED] §a[VIP] Woefulness_§f: hub
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:04] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:05] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: shut up
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:07] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/INFO]: [CHAT] Purpanated purchased Reinforced Armor II
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:10] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:11] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: thank you
+[19:15:11] [Render thread/WARN]: Received passengers for unknown entity
+[19:15:11] [Render thread/WARN]: Received passengers for unknown entity
+[19:15:12] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: :)
+[19:15:13] [Render thread/WARN]: Received passengers for unknown entity
+[19:15:13] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: STFU ALL
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:13] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:16] [Render thread/INFO]: [CHAT] §c§6[229✫] §c[RED] §6[MVP§8++§6] Approvingly§f: make me
+[19:15:19] [Render thread/INFO]: [CHAT] §c§7[30✫] §c[RED] §b[MVP§6+§b] Daniel1019_Power§f: no
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:19] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:20] [Render thread/INFO]: [CHAT] Trident_For_U was sent the wrong way by De4th312.
+[19:15:20] [Render thread/INFO]: [CHAT] You will respawn in 5 seconds!
+[19:15:21] [Render thread/INFO]: [CHAT] You will respawn in 4 seconds!
+[19:15:22] [Render thread/INFO]: [CHAT] You will respawn in 3 seconds!
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:22] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:23] [Render thread/INFO]: [CHAT] You will respawn in 2 seconds!
+[19:15:24] [Render thread/INFO]: [CHAT] You will respawn in 1 second!
+[19:15:24] [Render thread/INFO]: [CHAT] §c§7[3✫] §c[RED] §7bloodylip§7: get golden apples quick!!!
+[19:15:25] [Render thread/INFO]: [CHAT] You have respawned!
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:25] [Render thread/WARN]: Unknown custom packed identifier: badlion:timers
+[19:15:26] [Render thread/INFO]: [CHAT] §c§7[54✫] §c[RED] §b[MVP§c+§b] personman225§f: JUST STFU
+[19:15:27] [Render thread/INFO]: Stopping worker threads
+[19:15:34] [Render thread/INFO]: Stopping!
