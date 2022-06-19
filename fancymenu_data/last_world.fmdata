@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = /Users/tristanpoland/Documents/curseforge/minecraft/Instances/Nexus Client 1.19/saves/New World
+}
+
